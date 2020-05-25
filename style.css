@@ -27,14 +27,36 @@ html {
     width: 49px;
     height: 49px;
     border: 1px solid white;
+    background-color: transparent;
 }
 
 .column.wall {
     background-color: gray;
 }
 
+.column.walk {
+    background-color: red;
+    transition: 300ms;
+}
 
+.input_title {
+    color: white;
+}
 
+.generate_CTA {
+    height: 30px;
+    width: 100px;
+    background-color: green;
+}
+.find_path_CTA {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(128, 0, 0);
+    display: none;
+}
+.display {
+    display: flex;
+}
 
 
 
