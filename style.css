@@ -1,0 +1,68 @@
+/* BASE + RESETS */
+*,
+p, h1, h2, h3 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+div, section ,p ,h1 ,h2, h3, span {
+  box-sizing: border-box;
+}
+html {
+  font-size: 0.88rem;
+  max-height: 100vh;
+  overflow: hidden;
+  user-select: none;
+    background-position-y: -0.5rem;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 49px;
+    height: 49px;
+    border: 1px solid white;
+}
+
+.column.wall {
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (orientation: portrait) { 
+  html {
+    background-position-y: 0;
+  }
+}
+@media screen and (min-width: 64rem) and (max-width: 90rem) {
+  html {
+    font-size: 0.65rem;
+    background-position-y: 0;
+  }
+}
+@media only screen and (max-width: 63.9rem) and (orientation: landscape) { 
+  html {
+    font-size: 0.65rem;
+  }
+}
+@media screen and (max-width: 63.9rem) and (orientation: portrait) {
+  html {
+    font-size: 1.5rem;
+  }
+} */
